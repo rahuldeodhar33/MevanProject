@@ -1,7 +1,5 @@
 package testcases;
-
 import org.openqa.selenium.By;
-//import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Parameters;
@@ -14,7 +12,7 @@ public class LoginTest extends BaseClass{
 	 
 	@Test
 	public void FailedLogin() {
-		test = report.startTest("FailedLogin");
+		//test = report.startTest("FailedLogin");
 		LoginPage Login1 = new LoginPage();
 		Login1.LoginFunction("bac@ggg.com","Abcd@123");
 		WebElement ErrorMsg = driver.findElement(By.id("msg_box")); 
@@ -28,7 +26,7 @@ public class LoginTest extends BaseClass{
 		//}else {
 		//	System.out.println("TC Failed");
 		//}
-		report.endTest(test);
+		//report.endTest(test);
 	    }
 	@Test
 	public void PassedLogin() {

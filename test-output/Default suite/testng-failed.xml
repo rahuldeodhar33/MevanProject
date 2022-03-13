@@ -9,7 +9,7 @@
           <include name="dataTearDown"/>
           <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="FailedLogin"/>
+          <include name="extData"/>
         </methods>
       </class> <!-- testcases.LoginTest -->
     </classes>

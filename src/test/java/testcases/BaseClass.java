@@ -8,6 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -17,6 +18,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 public class BaseClass {
+	
 	public static WebDriver driver;
 	XSSFWorkbook wbook;
 	XSSFSheet sheet;
@@ -39,11 +41,12 @@ public class BaseClass {
 	
 	@BeforeMethod
 	public void Setup() {
+		test = report.startTest("FailedLogin");
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new ChromeDriver();
-		//WebDriver driver = new FirefoxDriver();
+		//driver = new FirefoxDriver();
 		
 		driver.get("https://www.simplilearn.com/");
 		driver.manage().window().maximize();
@@ -52,7 +55,9 @@ public class BaseClass {
 	}
 	@AfterMethod
 	public void tearDown () {
+		
 		driver.quit();
+		report.endTest(test);
 	}
 	
 }

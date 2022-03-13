@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  		<!--<parameter name ="Param1" value="abcd@gmail.com"/>
-		<parameter name = "Param2" value="Abcd@2234"/>-->
+  		<parameter name ="Param1" value="dddd@gmail.com"/>
+		<parameter name = "Param2" value="ddddd@2234"/>
 	<classes>
       <class name="testcases.LoginTest"/>
       <class name="testcases.BaseClass"/>
-      <class name="testcases.HomeTest"/>
+      <!--<class name="testcases.HomeTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

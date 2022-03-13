@@ -2,28 +2,28 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-12T13:00:50 IST" name="Default suite" finished-at="2022-03-12T13:01:08 IST" duration-ms="17623">
+  <suite started-at="2022-03-13T10:27:53 IST" name="Default suite" finished-at="2022-03-13T10:28:35 IST" duration-ms="41960">
     <groups>
     </groups>
-    <test started-at="2022-03-12T13:00:50 IST" name="Default test" finished-at="2022-03-12T13:01:08 IST" duration-ms="17623">
+    <test started-at="2022-03-13T10:27:53 IST" name="Default test" finished-at="2022-03-13T10:28:35 IST" duration-ms="41960">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="dataSetup()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-12T13:00:50 IST" name="dataSetup" finished-at="2022-03-12T13:00:51 IST" duration-ms="1275" status="PASS">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-13T10:27:53 IST" name="dataSetup" finished-at="2022-03-13T10:27:55 IST" duration-ms="1340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetup -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-12T13:00:51 IST" name="Setup" finished-at="2022-03-12T13:00:56 IST" duration-ms="4788" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-13T10:27:55 IST" name="Setup" finished-at="2022-03-13T10:27:59 IST" duration-ms="4262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="FailedLogin()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-12T13:00:56 IST" name="FailedLogin" finished-at="2022-03-12T13:01:07 IST" duration-ms="10537" status="PASS">
+        <test-method signature="extData()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-13T10:27:59 IST" name="extData" finished-at="2022-03-13T10:28:34 IST" duration-ms="35177" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FailedLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-12T13:01:07 IST" name="tearDown" finished-at="2022-03-12T13:01:07 IST" duration-ms="437" status="PASS">
+        </test-method> <!-- extData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-13T10:28:34 IST" name="tearDown" finished-at="2022-03-13T10:28:35 IST" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="dataTearDown()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-12T13:01:07 IST" name="dataTearDown" finished-at="2022-03-12T13:01:08 IST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="dataTearDown()[pri:0, instance:testcases.LoginTest@18cebaa5]" started-at="2022-03-13T10:28:35 IST" name="dataTearDown" finished-at="2022-03-13T10:28:35 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataTearDown -->
