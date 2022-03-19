@@ -1,4 +1,5 @@
 testcases\BaseClass.class
 testcases\LoginTest.class
 Pages\LoginPage.class
+NSEINFO\NSE_Home.class
 testcases\HomeTest.class
